@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&display=swap");
+body {
+  margin-top: 105px; }
+
+.line-highlight {
+  background: #3292a6;
+  height: 3px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 1.5rem; }
+
+.navbar {
+  box-shadow: 2px 2px 10px #3292a6;
+  opacity: 0.9; }
+  .navbar .nav-item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+    .navbar .nav-item .nav-link {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.6rem; }
+  .navbar h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem; }
+
+#main-footer h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 2rem; }
+
+#home-showcase {
+  position: relative;
+  background: url(../img/mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px; }
+  #home-showcase .primary-overlay {
+    position: absolute;
+    background-color: rgba(50, 146, 166, 0.8);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+.center-heading {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #authors .card:hover .fab {
+    color: #fff; }
+
+.amadeus-m {
+  margin-bottom: 1.9rem; }
+
+.zezo-m {
+  margin-bottom: 1.2rem; }
+
+.fakhr-m {
+  margin-bottom: 1.58rem; }
+
+#authors {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+@media (max-width: 768px) {
+  #home-showcase {
+    min-height: 500px; }
+    #home-showcase h3 {
+      font-size: 4rem; }
+
+  .center-heading {
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #ddd; }
+
+  .mb-responsive {
+    margin-bottom: 1rem; }
+
+  .mb-responsive2 {
+    margin-bottom: 3rem; }
+
+  #authors {
+    padding-top: 3rem;
+    padding-bottom: 0rem; } }
+@media (max-width: 992px) {
+  .mb-responsive2 {
+    margin-bottom: 3rem; } }
